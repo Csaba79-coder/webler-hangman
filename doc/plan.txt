@@ -1,0 +1,12 @@
+Hangman plan:
+
+- enter name (and capitalize first letter)
+- generate word // in our case it is reading from array!
+- choose random word from array
+- draw underscores for each letter in the word
+- define number of guesses // in our case 6 times -> 6 wrong guesses -> game over (draw hangman)
+- ask a guess from user
+- check if guess is in the word
+    - if guess is in the word, replace underscore with letter
+    - if guess is not in the word, add to wrong guesses (start drawing hangman)
+- in our case, if you know the solution, guess letters by letters
